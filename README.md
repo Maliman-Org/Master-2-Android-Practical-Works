@@ -1,6 +1,6 @@
 # Master 2 Android Practical Works 🎓 📱
 
-Here you can find all the given projects to do .
+Here you can find all the "To do projects" of this year.
 
 ## Tools & Langages 🔧
 
