@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:padding="50dp"
+    android:background="#ffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/activity_name"
+        />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:columnCount="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="onCreate() :"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:layout_marginEnd="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/activity_onCreate"
+            />
+        <Space
+            android:orientation="horizontal"
+            android:layout_height="5dp"
+            android:layout_width="5dp"
+            />
+        <Space
+            android:orientation="horizontal"
+            android:layout_height="5dp"
+            android:layout_width="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="onStart() :"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/activity_onStart"
+            />
+        <Space
+            android:orientation="horizontal"
+            android:layout_height="5dp"
+            android:layout_width="5dp"
+            />
+        <Space
+            android:orientation="horizontal"
+            android:layout_height="5dp"
+            android:layout_width="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="onResume() :"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/activity_onResume"
+            />
+        <Space
+            android:orientation="horizontal"
+            android:layout_height="5dp"
+            android:layout_width="5dp"
+            />
+        <Space
+            android:orientation="horizontal"
+            android:layout_height="5dp"
+            android:layout_width="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="onPause() :"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/activity_onPause"
+            />
+        <Space
+            android:orientation="horizontal"
+            android:layout_height="5dp"
+            android:layout_width="5dp"
+            />
+        <Space
+            android:orientation="horizontal"
+            android:layout_height="5dp"
+            android:layout_width="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="onStop() :"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/activity_onStop"
+            />
+        <Space
+            android:orientation="horizontal"
+            android:layout_height="5dp"
+            android:layout_width="5dp"
+            />
+        <Space
+            android:orientation="horizontal"
+            android:layout_height="5dp"
+            android:layout_width="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="onRestart() :"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/activity_onRestart"
+            />
+        <Space
+            android:orientation="horizontal"
+            android:layout_height="5dp"
+            android:layout_width="5dp"
+            />
+        <Space
+            android:orientation="horizontal"
+            android:layout_height="5dp"
+            android:layout_width="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="onDestroy() :"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/activity_onDestroy"
+            />
+    </GridLayout>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Create a New Activity"
+        android:background="@color/colorAccent"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:onClick="goToSecond"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:padding="0.5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            android:background="#ffff"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:onClick="goBack"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
