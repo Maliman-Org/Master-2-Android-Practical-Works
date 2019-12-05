@@ -2,7 +2,7 @@
 
 Here you can find all the "To do projects" of this year.
 
-## Tools & Langages 🔧
+## Tools & Languages 🔧
 
 1. Android Studio
 2. kotlin
