@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DietRecepes</string>
+    <string name="title">Step by Step ... to a Healthy Lifestyle</string>
+    <string name="step1">Eat a variety of foods</string>
+    <string name="step2">Reduce salt and sugar intake</string>
+    <string name="step3">Drink plenty of fluids</string>
+    <string name="step4">Get on the move, make it a habit!</string>
+    <string name="advice">Start now! And keep changing gradually</string>
+</resources>
