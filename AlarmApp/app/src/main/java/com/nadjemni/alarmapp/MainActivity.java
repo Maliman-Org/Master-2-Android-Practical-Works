@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-
             alarmManager.set(
                     AlarmManager.RTC_WAKEUP,
                     System.currentTimeMillis() + 5000,
@@ -65,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
                         System.currentTimeMillis() + 7000,
                         loggerReceiverPendingIntent
                 );
+                Log.d("TAGME", "I created a singleAlarm at "+System.currentTimeMillis());
             }
         });
 
@@ -75,17 +75,17 @@ public class MainActivity extends AppCompatActivity {
             alarmManager.setRepeating(
                     AlarmManager.ELAPSED_REALTIME,
                     SystemClock.elapsedRealtime() + 5000,
-                    3000,
+                    5000,
                     notificationReceiverPendingIntent
             );
 
             alarmManager.setRepeating(
                     AlarmManager.ELAPSED_REALTIME,
-                    SystemClock.elapsedRealtime() + 5000,
-                    7000,
+                    SystemClock.elapsedRealtime() + 7000,
+                    5000,
                     loggerReceiverPendingIntent
             );
-
+                Log.d("TAGME", "I created a repeatingAlarm at "+System.currentTimeMillis());
 
     }
         });
@@ -94,18 +94,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
             alarmManager.setInexactRepeating(
-                    AlarmManager.ELAPSED_REALTIME,
+                    AlarmManager.ELAPSED_REALTIME_WAKEUP,
                     SystemClock.elapsedRealtime() + 5000,
-                    3000,
+                    5000,
                     notificationReceiverPendingIntent
             );
 
             alarmManager.setInexactRepeating(
-                    AlarmManager.ELAPSED_REALTIME,
-                    SystemClock.elapsedRealtime() + 5000,
-                    3_000,
+                    AlarmManager.ELAPSED_REALTIME_WAKEUP,
+                    SystemClock.elapsedRealtime() + 7000,
+                    5000,
                     loggerReceiverPendingIntent
             );
+                Log.d("TAGME", "I created an Inexact repeatingAlarm at "+System.currentTimeMillis());
         }
     });
 
