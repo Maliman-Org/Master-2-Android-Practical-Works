@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         explicite.setOnClickListener{
             val intent= Intent(this@MainActivity, ExpliciteActivity::class.java)
             startActivity(intent)
-
         }
         implicite.setOnClickListener{
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com")))
